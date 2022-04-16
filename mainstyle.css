@@ -30,10 +30,6 @@ body{
     width: auto;
 }
 
-.title{
-    border: 2px solid red;
-}
-
 h1{
     font-family: 'Dancing Script', sans-serif;
     font-weight: bold;
@@ -51,5 +47,4 @@ h1{
 .milotic img{
     max-height: 30vh;
     width: auto;
-    border: 2px solid red;
 }
