@@ -1,7 +1,7 @@
 html, body{
     font-family: 'Inter', sans-serif;
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -11,23 +11,48 @@ html, body{
     background: linear-gradient(to right bottom, #9bded7, #0e9689);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-header{
-    font-weight: bold;
-    color: white;
-    font-size: 2vw;
-    display: flex;
-    justify-content: space-evenly;
-}
-h1{
-    font-size: 3vw;
-}
 img{
     width: 30vh;
     height: auto;
 }
 
+/*header*/
+.header{
+    font-family: 'poppins', sans-serif;
+    width: 75%;
+    font-weight: bold;
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3vw;
+}
+
+/*main picture */
+.david{
+    display: flex;
+    justify-content: center;
+}
+.mainpic{
+    width: 75%;
+    height: auto;
+}
+/*banner under picture*/
+.info{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background: #DE9BA2;
+    color: white;
+}
+/*bday message*/
 .message{
     width: 70vw;
     height: auto;
