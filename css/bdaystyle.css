@@ -13,6 +13,7 @@ html, body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
 }
 
 img{
@@ -58,4 +59,21 @@ h1{
     width: 75%;
     height: auto;
     color: white;
+}
+/*memories section*/
+.memories{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    color: #DE9BA2;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+/*footer*/
+footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
