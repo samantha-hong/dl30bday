@@ -47,6 +47,7 @@ h1{
 /*banner under picture*/
 .info{
     font-family: 'poppins', sans-serif;
+    font-size: 1.5vw;
     display: flex;
     justify-content: center;
     width: 75%;
@@ -55,7 +56,7 @@ h1{
 }
 /*bday message*/
 .message{
-    font-size: 20px;
+    font-size: 1.5vw;
     width: 75%;
     height: auto;
     color: white;
@@ -67,12 +68,18 @@ h1{
     justify-content: space-between;
     color: #DE9BA2;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: center;
+}
+
+.memories img{
+    width: 15vw;
+    height: auto;
 }
 /*footer*/
 footer{
     color: white;
+    font-size: 1vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
