@@ -1,6 +1,7 @@
 html, body{
     font-family: 'Inter', sans-serif;
-    width: 90%;
+    margin: 0;
+    width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
@@ -83,4 +84,16 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+/* phone view */
+@media only screen and (max-height:845px){
+    html, body{
+        display: flex;
+        align-items: center;
+        background-color: #30c7b8;
+        background: linear-gradient(to right bottom, #0e9689, #9bded7);
+    }
+    .container{
+        border-radius: 2%;
+    }
 }
