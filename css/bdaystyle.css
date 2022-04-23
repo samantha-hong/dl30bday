@@ -86,7 +86,7 @@ footer{
     justify-content: space-between;
 }
 /* phone view */
-@media only screen and (max-height:845px){
+@media only screen and (max-width:650px){
     html, body{
         display: flex;
         align-items: center;
